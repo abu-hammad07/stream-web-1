@@ -1,0 +1,1802 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from codervent.com/synplayer/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Sep 2024 11:37:40 GMT -->
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- loader-->
+  <link href="assets/css/pace.min.css" rel="stylesheet" />
+  <script src="assets/js/pace.min.js"></script>
+
+  <!-- CSS files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/bootstrap-icons%401.7.2/font/bootstrap-icons.css">
+  <!-- Plugins -->
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/dark-theme.css" rel="stylesheet">
+  <link href="assets/css/theme-colors.css" rel="stylesheet">
+
+  <title>Syn Player - Online Movies & TV Shows</title>
+</head>
+
+<body>
+
+
+  <header class="top-header">
+    <nav class="navbar navbar-expand-xl w-100 navbar-dark">
+      <a class="navbar-brand d-none d-xl-inline" href="index.html"><img src="assets/images/logo-4.png" width="160"
+          alt=""></a>
+      <a class="mobile-menu-btn d-inline d-xl-none" href="javascript:;" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar">
+        <i class="bi bi-list"></i>
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <div class="offcanvas-logo"><img src="assets/images/logo-2.png" width="160" alt="">
+          </div>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body primary-menu">
+          <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="tv-shows.html" data-bs-toggle="dropdown">
+                Tv Shows
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="reality-tv-shows.html">Reality</a></li>
+                <li><a class="dropdown-item" href="comedy-shows.html">Comedy</a></li>
+                <li><a class="dropdown-item" href="drama-shows.html">Drama</a></li>
+                <li><a class="dropdown-item" href="crime-shows.html">Crime</a></li>
+                <li><a class="dropdown-item" href="thriller-shows.html">Thriller</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="web-series.html" data-bs-toggle="dropdown">
+                Web Shows
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="drama-shows.html">Drama</a></li>
+                <li><a class="dropdown-item" href="thriller-shows.html">Thriller</a></li>
+                <li><a class="dropdown-item" href="reality-tv-shows.html">Reality</a></li>
+                <li><a class="dropdown-item" href="crime-shows.html">Crime</a></li>
+                <li><a class="dropdown-item" href="comedy-shows.html">Comedy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="movies.html" data-bs-toggle="dropdown">
+                Movies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="english-movies.html">English</a></li>
+                <li><a class="dropdown-item" href="javascript:;">Tamil</a></li>
+                <li><a class="dropdown-item" href="hindi-movies.html">Hindi</a></li>
+                <li><a class="dropdown-item" href="arabic-movies.html">Arabic</a></li>
+                <li><a class="dropdown-item" href="russian-movies.html">Russian</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tv-channels.html">Channels</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="music.html" data-bs-toggle="dropdown">
+                Music
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="hindi-songs.html">Hindi</a></li>
+                <li><a class="dropdown-item" href="arabic-songs.html">Arabic</a></li>
+                <li><a class="dropdown-item" href="javascript:;">Punjabi</a></li>
+                <li><a class="dropdown-item" href="javascript:;">Telugu</a></li>
+                <li><a class="dropdown-item" href="english-songs.html">English</a></li>
+                <li><a class="dropdown-item" href="russion-songs.html">Russion</a></li>
+                <li><a class="dropdown-item" href="javascript:;">Malayalam</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="buzz.html">Buzz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="navbar-nav secondary-menu flex-row gap-lg-2 gap-4">
+        <li class="nav-item">
+          <a class="nav-link" href="search.html"><i class="bi bi-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="watchlist.html"><i class="bi bi-plus-lg me-md-1 me-0"></i><span
+              class="d-none d-md-inline">My List</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sign-in.html"><i class="bi bi-power me-md-1 me-0"></i><span
+              class="d-none d-md-inline">Logout</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:;" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-gear-fill"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+<!--start page content-->
+<div class="page-content">
+
+ <!--start slider-->
+  <section class="slider-section">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/sliders/01.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="show-title">First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/sliders/02.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="show-title">Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/sliders/03.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="show-title">Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/sliders/04.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="show-title">Fourth slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/sliders/05.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="show-title">Fifth slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-1">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Trending In Movies</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-thumbs/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-2">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Popular Web Shows</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/web-shows/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-1">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Trending on TV</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/tv-shows/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-2">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Popular Family Dramas</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/drama-shows/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  <!--start channel slider-->
+  <section class="movies-thumb-slider py-5 bg-section-1">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Live News Channels</h3>
+        </div>
+        <div class="ms-auto"><a href="tv-channels.html" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Channels</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="live-channels">
+        <div class="row row-cols-2 row-cols-lg-5 g-4">
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/01.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/02.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/03.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/04.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/05.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/06.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/07.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/08.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/09.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/news-chanels/10.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end row-->
+      </div>
+    </div>
+  </section>
+  <!--end channel slider-->
+
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-2">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Popular Comedy Shows</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/comedy-shows/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-1">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Best Of Reality Shows</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/reality-shows/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-2">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Best Of Romantic Movies</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/romantic-movies/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-1">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Best Of Historical Movies</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/historical-movies/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-2">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Popular Action Dhamaka</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/action-movies/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+  <!--start channel slider-->
+  <section class="movies-thumb-slider py-5 bg-section-1">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Top Movies Channels</h3>
+        </div>
+        <div class="ms-auto"><a href="tv-channels.html" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Channels</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="live-channels">
+        <div class="row row-cols-2 row-cols-lg-5 g-4">
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/01.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/02.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/03.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/04.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/05.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/06.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/07.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/08.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/09.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 border rounded channel-box">
+              <div class="d-flex align-items-center">
+                <a href="live-channel.html">
+                  <img src="assets/images/top-movies-channels/10.png" class="img-fluid" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end row-->
+      </div>
+    </div>
+  </section>
+  <!--end channel slider-->
+
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-2">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Movies On Demand</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/movies-on-demand/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+
+
+  <!--start slider-->
+  <section class="movies-thumb-slider py-5 bg-section-1">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <div>
+          <h3 class="mb-0 fw-bold">Best of Bollywood Films</h3>
+        </div>
+        <div class="ms-auto"><a href="javascript:;" class="more-videos-link btn btn-theme"><span class="d-none d-md-inline">More Videos</span><span><i class="bi bi-chevron-double-right d-inline d-md-none"></i></span></a></div>
+      </div>
+      <div class="movies-thumbs">
+        <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/01.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/02.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/03.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/04.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/05.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/06.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/07.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+         <a href="video-player-page.html">
+          <div class="card">
+            <img src="assets/images/best-bollywood/08.png" class="card-img" alt="...">
+            <div class="thumb-overlay">
+            <div class="add-to-list gap-1">
+              <div class="add-to-list-icon"><i class="bi bi-plus-lg"></i></div>
+              <div class="add-to-list-text">Add to my list</div>
+            </div>
+          </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </section>
+  <!--end slider-->
+
+ </div>
+  <!--end page content-->
+
+
+  <!--start footer-->
+  <section class="footer-section py-5 bg-section-2">
+    <div class="container">
+       <div class="row row-cols-1 row-cols-lg-5 g-4">
+        <div class="col">
+          <div class="footer-widget-1">
+            <h5 class="mb-3 fw-bold">Trending In Movies</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">Fas & Furious 9</a></li>
+               <li><a href="javascript:;">Avengers</a></li>
+               <li><a href="javascript:;">Spider Man 3</a></li>
+               <li><a href="javascript:;">Game of Thron</a></li>
+               <li><a href="javascript:;">Bahubali 2</a></li>
+               <li><a href="javascript:;">Titanic</a></li>
+               <li><a href="javascript:;">Hulk Man</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-2">
+            <h5 class="mb-3 fw-bold">Pouplar Shows</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">Fas & Furious 9</a></li>
+               <li><a href="javascript:;">Avengers</a></li>
+               <li><a href="javascript:;">Spider Man 3</a></li>
+               <li><a href="javascript:;">Game of Thron</a></li>
+               <li><a href="javascript:;">Bahubali 2</a></li>
+               <li><a href="javascript:;">Titanic</a></li>
+               <li><a href="javascript:;">Hulk Man</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-3">
+            <h5 class="mb-3 fw-bold">Movies by Language</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">Fas & Furious 9</a></li>
+               <li><a href="javascript:;">Avengers</a></li>
+               <li><a href="javascript:;">Spider Man 3</a></li>
+               <li><a href="javascript:;">Game of Thron</a></li>
+               <li><a href="javascript:;">Bahubali 2</a></li>
+               <li><a href="javascript:;">Titanic</a></li>
+               <li><a href="javascript:;">Hulk Man</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-4">
+            <h5 class="mb-3 fw-bold">Trending On TV</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">Fas & Furious 9</a></li>
+               <li><a href="javascript:;">Avengers</a></li>
+               <li><a href="javascript:;">Spider Man 3</a></li>
+               <li><a href="javascript:;">Game of Thron</a></li>
+               <li><a href="javascript:;">Bahubali 2</a></li>
+               <li><a href="javascript:;">Titanic</a></li>
+               <li><a href="javascript:;">Hulk Man</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-5">
+            <h5 class="mb-3 fw-bold">Popular Actors</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">Fas & Furious 9</a></li>
+               <li><a href="javascript:;">Avengers</a></li>
+               <li><a href="javascript:;">Spider Man 3</a></li>
+               <li><a href="javascript:;">Game of Thron</a></li>
+               <li><a href="javascript:;">Bahubali 2</a></li>
+               <li><a href="javascript:;">Titanic</a></li>
+               <li><a href="javascript:;">Hulk Man</a></li>
+             </ul>
+          </div>
+        </div>
+       </div><!--end row-->
+       <div class="my-5"></div>
+       <div class="row row-cols-1 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="footer-widget-6">
+            <img src="assets/images/logo-2.png" class="mb-4" width="180" alt="">
+            <h5 class="mb-3 fw-bold">About Us</h5>
+             <p class="mb-2">Syn Player is a video streaming app that offers thousands of hours of premium, exclusive and original content from leading Producers and Publishers. The platform lays focus on Exclusive Original Content with emphasis.</p>
+             <a class="text-theme" href="javascript:;">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-7">
+            <h5 class="mb-3 fw-bold">Explore</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="web-series.html">Web Shows</a></li>
+               <li><a href="movies.html">Movies</a></li>
+               <li><a href="tv-shows.html">TV Shows</a></li>
+               <li><a href="music.html">Music</a></li>
+               <li><a href="tv-channels.html">Channels</a></li>
+               <li><a href="buzz.html">Buzz</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-8">
+            <h5 class="mb-3 fw-bold">Company</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">About Us</a></li>
+               <li><a href="javascript:;">Contact Us</a></li>
+               <li><a href="javascript:;">FAQ</a></li>
+               <li><a href="javascript:;">Privacy</a></li>
+               <li><a href="javascript:;">Terms</a></li>
+               <li><a href="javascript:;">Complaints</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-9">
+            <h5 class="mb-3 fw-bold">Follow Us</h5>
+             <div class="social-link d-flex align-items-center gap-2">
+               <a href="javascript:;"><i class="bi bi-facebook"></i></a>
+               <a href="javascript:;"><i class="bi bi-twitter"></i></a>
+               <a href="javascript:;"><i class="bi bi-linkedin"></i></a>
+               <a href="javascript:;"><i class="bi bi-youtube"></i></a>
+               <a href="javascript:;"><i class="bi bi-instagram"></i></a>
+             </div>
+
+             <div class="mb-4 mt-4">
+              <h5 class="mb-0 fw-bold">Support</h5>
+              <p class="mb-0 text-muted">support@example.com</p>
+             </div>
+
+             <div class="">
+              <h5 class="mb-0 fw-bold">Toll Free</h5>
+              <p class="mb-0 text-muted">1800- 8xx 2xx</p>
+             </div>
+
+          </div>
+        </div>
+       </div><!--end row-->
+       <div class="my-5"></div>
+       <div class="row">
+         <div class="col-12">
+           <div class="text-center">
+            <h5 class="fw-bold mb-3">Download Syn Player App</h5>
+           </div>
+          <div class="app-icon d-flex align-items-center justify-content-center gap-2">
+            <div>
+              <a href="javascript:;">
+                <img src="assets/images/play-store.png" width="160" alt="">
+              </a>
+            </div>
+            <div class="my-2"></div>
+            <div>
+              <a href="javascript:;">
+                <img src="assets/images/apple-store.png" width="160" alt="">
+              </a>
+            </div>
+          </div>
+         </div>
+       </div><!--end row-->
+
+    </div>
+  </section>
+  <!--end footer-->
+
+  <footer class="footer-strip text-center py-3 bg-section-2 border-top positon-absolute bottom-0">
+    <p class="mb-0 text-muted">© 2022. www.synplayer.in. | All rights reserved.</p>
+  </footer>
+
+
+<!--Start Back To Top Button-->
+  <a href="javaScript:;" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!--End Back To Top Button-->
+  
+
+  <!--start switcher-->
+  <div class="switcher-body">
+    <div class="offcanvas offcanvas-end shadow border-start-0 p-2" data-bs-scroll="true" data-bs-backdrop="false"
+      tabindex="-1" id="offcanvasScrolling">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Theme Customizer</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <h6 class="mb-0">Theme Variation</h6>
+        <hr>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="LightTheme" value="option1" checked>
+          <label class="form-check-label" for="LightTheme">Light</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="DarkTheme" value="option2">
+          <label class="form-check-label" for="DarkTheme">Dark</label>
+        </div>
+        <hr />
+        <h6 class="mb-0">Theme Colors</h6>
+        <hr />
+        <div class="header-colors-indigators">
+          <div class="row row-cols-auto g-3">
+            <div class="col">
+              <div class="indigator bg-BlueTheme" id="BlueTheme"></div>
+            </div>
+            <div class="col">
+              <div class="indigator bg-PurpleTheme" id="PurpleTheme"></div>
+            </div>
+            <div class="col">
+              <div class="indigator bg-GreenTheme" id="GreenTheme"></div>
+            </div>
+            <div class="col">
+              <div class="indigator bg-BlackTheme" id="BlackTheme"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--end switcher-->
+
+
+
+   <!-- JavaScript files -->
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/plugins/slick/slick.min.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/index.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from codervent.com/synplayer/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Sep 2024 11:38:36 GMT -->
+</html>
